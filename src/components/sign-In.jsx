@@ -35,7 +35,7 @@ const SignIn = ()=>{
               <input value={email} onChange={(e) => {setEmail(e.target.value)}} type="email" className="email-inp m-4 rounded-pill fs-5" placeholder="Email" required autoComplete="userName"/>
               <input value={password} onChange={(e) => {setPassword(e.target.value)}} type="password" className="password-inp rounded-pill fs-5" placeholder="Password" required autoComplete="current-password"/>
               <div>
-                <p className='m-0'>Email- vel2@gamil.com</p>
+                <p className='m-0'>Email- vel2@gmail.com</p>
                 <p className='m-0'>Password- 123456789</p>
               </div>
               <button className="sign-btn rounded-pill p-1 bg-primary text-light fw-bold fs-5" type="submit">Sign In!</button>
