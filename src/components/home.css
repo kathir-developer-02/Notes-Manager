@@ -1,0 +1,20 @@
+.hr-line{
+  box-shadow: 0px 1px 1px 1px rgb(0, 0, 0);
+}
+
+.main-div{
+  background-color: rgb(235, 235, 235);
+}
+.search-in{
+  box-shadow: 1px 2px 10px gray;
+}
+
+.sign-out-btn{
+  border-radius: 10px;
+  background-color: rgb(251, 87, 87);
+  width: 80px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+

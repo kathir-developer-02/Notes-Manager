@@ -1,0 +1,55 @@
+.add-card{
+  background-color: rgb(255, 243, 216);
+  position: absolute;
+  top: 60px;
+  left: 550px;
+}
+
+.add-card label{
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.title-inp{
+  width: 230px;
+  background-color: rgb(255, 191, 191);
+}
+
+.text-area{
+  background-color: rgb(255, 191, 191);
+  width: 230px;
+  height: 200px;
+}
+.add-note{
+  width: 100px;
+  padding: 5px;
+  margin-top: 20px
+}
+
+@media screen and (max-width:340px) {
+  .add-card{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    
+  }
+}
+
+@media screen and (min-width:340px) {
+  .add-card{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .add-card{
+    position: absolute;
+    top: 60px;
+    left: 320px;
+    
+  }
+}

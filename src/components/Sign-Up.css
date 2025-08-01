@@ -1,0 +1,39 @@
+.inp-div1{
+  margin-top: 30px;
+}
+
+.inp-div1 input{
+  width: 400px;
+  padding: 10px 10px 10px 25px;
+}
+.email-inp1::placeholder , .password-inp1::placeholder{
+  color: black;
+  font-size: 16px;
+}
+.sign-btn1{
+  width: 400px;
+  margin-top: 50px;
+}
+.side1{
+  background-color: rgb(75, 75, 232);
+  border-top-left-radius: 50px;
+}
+
+@media screen and (max-width:415px) {
+
+  .inp-div1 input{
+    width: 330px;
+  }
+  .sign-btn1{
+    width: 150px;
+  }
+  .side1{
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .main1{
+    height: 678px;
+  }
+}

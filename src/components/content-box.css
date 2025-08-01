@@ -1,0 +1,13 @@
+.card-div{
+  width: 300px;
+  text-align: left;
+  border-radius: 20px;
+  height: fit-content;
+  position: relative;
+}
+
+.delete-btn{
+  position: absolute;
+  top: 25px;
+  right: 25px; 
+}
